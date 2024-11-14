@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "merriweather";
+  src: url("./Fonts/font-bold.ttf");
+}
+
+@font-face {
+  font-family: "merriweather2";
+  src: url("./Fonts/font-light.ttf");
+}
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  color: white;
+}
+
+h1 {
+  font-family: "merriweather";
+  color: white;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+}
+
+div {
+  background-color: black;
+  color: white;
+}
+
+.banner {
+  letter-spacing: 5px;
+  font-size: 120%;
+  text-align: center;
+  margin: auto;
+  border: 3px solid white;
+  padding: 5px;
+  color: white;
+}
+
+.user-interface {
+  display: grid;
+  grid-template-columns: 70% 20%;
+  gap: 5%;
+  justify-content: center;
+  padding: 5px;
+  white-space: pre-line;
+}
+
+#sketch-holder {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  width: fit-content;
+}
+
+#more-info {
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  width: 90%;
+  white-space: pre-line;
+}
